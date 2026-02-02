@@ -35,12 +35,12 @@ I decided that I could achieve my goal by creating a gcm file with entries for *
 in my data file; that way, when I opened an account, GnuCash would use the stored columns for that
 account. After some thought, I decided that I was mostly concerned about making settings for some of 
 the account types that GnuCash defines. Specifically, I wanted to set column widths for accounts of type: 
- - BANK
- - CREDIT
- - INCOME
- - LIABILITY
- - MUTUAL
- - STOCK
+   - BANK
+   - CREDIT
+   - INCOME
+   - LIABILITY
+   - MUTUAL
+   - STOCK
 
 The newly-created gcm file uses the general settings that GnuCash has already created, merged with 
 generated register column definitions for all accounts of the above types. I derived the general settings
@@ -60,10 +60,11 @@ a simple text value which defines the different column widths in that register. 
 to suit individual preference.
 
 IMPLEMENTATION AND USE
+
 The script requires three text files:
-1 - gcm_base.txt - the starting portion of your existing gcm file, up to the first register definition
-2 - gcm_post.txt - the concluding portion of your existing gcm file, after the last register definition
-3 - account_info.txt - a comma-separated value text file with the Account GUID and Account type, with a header row
+  1 - gcm_base.txt - the starting portion of your existing gcm file, up to the first register definition
+  2 - gcm_post.txt - the concluding portion of your existing gcm file, after the last register definition
+  3 - account_info.txt - a comma-separated value text file with the Account GUID and Account type, with a header row
 
 Place these files in the same folder as the script file, and from a command line in that folder, enter
        python ./generate_gcm.py
