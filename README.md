@@ -73,7 +73,7 @@ YOU CANNOT USE THESE FILES ON YOUR OWN MACHINE BECAUSE NONE OF THE GUIDS INCLUDE
 
 YOU **MUST** USE A COPY OF YOUR OWN GNUCASH FILES TO GENERATE LOCALLY VALID COPIES OF THESE 3 FILES.
 
-Place these files in the same folder as the script file, and from a command line in that folder, enter
+Place these files in the same folder as the script file, and from a command line in that folder, enter  
        python ./generate_gcm.py
 
 Following the execution, you will have a new file in the folder: output.gcm
