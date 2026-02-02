@@ -1,0 +1,105 @@
+[Window 1]
+PageCount=7
+FirstPage=1
+PageOrder=5;7;6;1;4;3;2;
+WindowPosition=22;0;
+WindowGeometry=2514;953;
+WindowMaximized=false
+ToolbarVisible=true
+SummarybarVisible=true
+StatusbarVisible=true
+
+[Page 1]
+PageType=GncPluginPageRegister
+PageName=USAA Checking
+RegisterType=Account
+AccountName=Assets:Current Assets:Checking Accounts:USAA Checking
+AccountGuid=6639803e9f944910fa3b6db589b719e8
+RegisterStyle=Ledger
+DoubleLineMode=false
+
+[Page 2]
+PageType=GncPluginPageRegister
+PageName=USAA Savings
+RegisterType=Account
+AccountName=Assets:Current Assets:Savings Accounts:USAA Savings
+AccountGuid=d8ef63246f6ef1bc021c62da2d3cdfc2
+RegisterStyle=Ledger
+DoubleLineMode=false
+
+[Page 3]
+PageType=GncPluginPageRegister
+PageName=USAA Visa
+RegisterType=Account
+AccountName=Liabilities:Credit Cards:USAA Visa
+AccountGuid=0597c5ab62985b4861b1b1f45d9aae93
+RegisterStyle=Ledger
+DoubleLineMode=false
+
+[Page 4]
+PageType=GncPluginPageRegister
+PageName=Chase United
+RegisterType=Account
+AccountName=Liabilities:Credit Cards:Chase United
+AccountGuid=01529eebb053fe323771f334b642cd4a
+RegisterStyle=Ledger
+DoubleLineMode=false
+
+[Page 5]
+PageType=GncPluginPageAccountTree
+PageName=Accounts
+AccountTypes=-1
+ShowHidden=true
+ShowZeroTotal=true
+ShowUnused=true
+SelectedAccount=Assets:Current Assets:Other Asset Accounts:Schwab Cash:Schwab Value Advantage Money Fund
+OpenAccount1=Assets
+OpenAccount2=Assets:Current Assets
+OpenAccount3=Assets:Current Assets:Savings Accounts
+OpenAccount4=Assets:Current Assets:Other Asset Accounts
+OpenAccount5=Assets:Current Assets:Other Asset Accounts:Schwab Cash
+OpenAccount6=Assets:Investments
+OpenAccount7=Assets:Investments:Taxable
+OpenAccount8=Assets:Investments:Taxable:DHT Portfolio
+OpenAccount9=Assets:Investments:Taxable:DHT Portfolio:Beese DHT
+OpenAccount10=Assets:Investments:Taxable:CGT Portfolio
+OpenAccount11=Assets:Investments:Taxable:Joint
+OpenAccount12=Assets:Investments:Taxable:Joint:House Joint
+OpenAccount13=Assets:Investments:Untaxed
+OpenAccount14=Assets:Rental Property
+OpenAccount15=Assets:Rental Property:1524 N Ohio
+OpenAccount16=Assets:Fixed Assets
+OpenAccount17=Assets:Fixed Assets:Vehicles
+OpenAccount18=Liabilities
+OpenAccount19=Liabilities:Loans
+OpenAccount20=Liabilities:Loans:Real Estate
+OpenAccount21=Liabilities:Loans:Real Estate:1524 N. Ohio
+OpenAccount22=Income
+OpenAccount23=Income:Wages
+OpenAccount24=Income:Wages:Claire
+OpenAccount25=Income:Realized Gains
+OpenAccount26=Income:Realized Gains:Taxed Gains
+OpenAccount27=Income:Realized Gains:Taxed Gains:BFP Schwab Cap Gain
+OpenAccount28=Income:Retirement Income
+OpenAccount29=Income:Retirement Income:Pensions
+OpenAccount30=Income:Retirement Income:Pensions:DHT
+OpenAccount31=Expenses
+OpenAccount32=Expenses:Bank Fees
+OpenAccount33=Expenses:Bank Fees:Transaction Fee
+OpenAccount34=Expenses:Charity
+OpenAccount35=Expenses:Clothing
+OpenAccount36=Expenses:Dining
+OpenAccount37=Expenses:Education
+OpenAccount38=Expenses:Entertainment
+OpenAccount39=Expenses:Groceries
+OpenAccount40=Expenses:Household
+OpenAccount41=Expenses:Medical
+OpenAccount42=Expenses:Medical:Dental
+OpenAccount43=Expenses:Real Estate
+OpenAccount44=Expenses:Real Estate:1524 N. Ohio St.
+OpenAccount45=Expenses:Real Estate:1524 N. Ohio St.:Rental
+OpenAccount46=Expenses:Real Estate:1524 N. Ohio St.:Rental:Mortgage Interest
+OpenAccount47=Expenses:Real Estate:1524 N. Ohio St.:Rental:Repairs
+OpenAccount48=Expenses:Vacation
+OpenAccount49=Special Accounts
+NumberOfOpenAccounts=49
