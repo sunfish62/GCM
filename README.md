@@ -71,7 +71,7 @@ Copies of the files named above are included in this project AS EXAMPLES ONLY.
 
 YOU CANNOT USE THESE FILES ON YOUR OWN MACHINE BECAUSE NONE OF THE GUIDS INCLUDED HERE WILL MATCH YOUR OWN DATA FILE!!!  
 
-YOU **MUST** USE A COPY OF YOUR OWN GCM FILES TO GENERATE YOUR OWN COPIES OF THESE 3 FILES.
+YOU **MUST** USE A COPY OF YOUR OWN GNUCASH FILES TO GENERATE LOCALLY VALID COPIES OF THESE 3 FILES.
 
 Place these files in the same folder as the script file, and from a command line in that folder, enter
        python ./generate_gcm.py
