@@ -61,10 +61,10 @@ to suit individual preference.
 
 IMPLEMENTATION AND USE
 
-The script requires three text files:
-  1 - gcm_base.txt - the starting portion of your existing gcm file, up to the first register definition
-  2 - gcm_post.txt - the concluding portion of your existing gcm file, after the last register definition
-  3 - account_info.txt - a comma-separated value text file with the Account GUID and Account type, with a header row
+The script requires three text files:  
+  1 - gcm_base.txt - the starting portion of your existing gcm file, up to the first register definition  
+  2 - gcm_post.txt - the concluding portion of your existing gcm file, after the last register definition  
+  3 - account_info.txt - a comma-separated value text file with the Account GUID and Account type, with a header row  
 
 Place these files in the same folder as the script file, and from a command line in that folder, enter
        python ./generate_gcm.py
