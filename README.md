@@ -2,6 +2,7 @@
 Python Script to write a GnuCash gcm file with column width definitions for all accounts in a data file
 
 BACKGROUND
+
 The open source accounting program GnuCash (www.gnucash.org) uses a system file, called
 a '''gcm''' file, to manage the screen layout in GnuCash windows and registers. Each
 GnuCash data file has its own gcm file to manage the GnuCash appearance. 
@@ -29,6 +30,7 @@ preference, and there doesn't appear to ba any way to set new default column wid
 changing the source code.
 
 MY SOLUTION
+
 I decided that I could achieve my goal by creating a gcm file with entries for *ALL* the accounts 
 in my data file; that way, when I opened an account, GnuCash would use the stored columns for that
 account. After some thought, I decided that I was mostly concerned about making settings for some of 
