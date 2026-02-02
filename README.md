@@ -66,6 +66,13 @@ The script requires three text files:
   2 - gcm_post.txt - the concluding portion of your existing gcm file, after the last register definition  
   3 - account_info.txt - a comma-separated value text file with the Account GUID and Account type, with a header row  
 
+'''IMPORTANT NOTE'''  
+Copies of the files named above are included in this project AS EXAMPLES ONLY.
+
+YOU CANNOT USE THESE FILES ON YOUR OWN MACHINE BECAUSE NONE OF THE GUIDS INCLUDED HERE WILL MATCH YOUR OWN DATA FILE!!!  
+
+YOU **MUST** USE A COPY OF YOUR OWN GCM FILES TO GENERATE YOUR OWN COPIES OF THESE 3 FILES.
+
 Place these files in the same folder as the script file, and from a command line in that folder, enter
        python ./generate_gcm.py
 
